@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="GBK" ?>
+<dic>	
+	<mapping id="certi_type" desc="证件类型" useing="true">
+		<map key="身份证" mapping="0" desc="身份证 " />
+		<map key="户口簿" mapping="1" desc="户口簿" />
+		<map key="护照" mapping="2" desc="护照" />
+		<map key="军官证" mapping="3" desc="军官证 " />
+		<map key="士兵证" mapping="4" desc="士兵证 " />
+		<map key="港澳居民来往内地通行证" mapping="5" desc="港澳居民来往内地通行证" />
+		<map key="台湾同胞来往内地通行证" mapping="6" desc="台湾同胞来往内地通行证" />
+		<map key="临时身份证" mapping="7" desc="临时身份证 " />
+		<map key="外国人居留证" mapping="8" desc="外国人居留证 " />
+		<map key="警官征" mapping="9" desc="警官征" />
+		<map key="香港身份证" mapping="A" desc="香港身份证" />
+		<map key="澳门身份证" mapping="B" desc="澳门身份证 " />
+		<map key="台湾身份证" mapping="C" desc="台湾身份证 " />
+		<map key="其他证件" mapping="X" desc="其他证件" />
+	</mapping>
+	
+	<mapping id="reason_type" desc="查询原因" useing="true">
+		<map2 key="贷后管理" mapping="01" desc="贷后管理 " />
+		<map key="贷款审批" mapping="02" desc="贷款审批" />
+		<map key="信用卡审批" mapping="03" desc="信用卡审批" />
+		<map key="本人查询" mapping="088" desc="本人查询 " />
+		<map key="担保资格审查" mapping="021" desc="担保资格审查 " />
+		<map key="特约商户" mapping="119" desc="特约商户 " />
+	</mapping>
+
+</dic>

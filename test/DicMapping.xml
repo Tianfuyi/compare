@@ -1,0 +1,1339 @@
+<?xml version="1.0" encoding="GBK" ?>
+<dic>	
+	<mapping id="certi_type" desc="证件类型" useing="true">
+		<map key="身份证" mapping="0" desc="身份证 " />
+		<map key="户口簿" mapping="1" desc="户口簿" />
+		<map key="护照" mapping="2" desc="护照" />
+		<map key="军官证" mapping="3" desc="军官证 " />
+		<map key="士兵证" mapping="4" desc="士兵证 " />
+		<map key="港澳居民来往内地通行证" mapping="5" desc="港澳居民来往内地通行证" />
+		<map key="台湾同胞来往内地通行证" mapping="6" desc="台湾同胞来往内地通行证" />
+		<map key="临时身份证" mapping="7" desc="临时身份证 " />
+		<map key="外国人居留证" mapping="8" desc="外国人居留证 " />
+		<map key="警官征" mapping="9" desc="警官征" />
+		<map key="香港身份证" mapping="A" desc="香港身份证" />
+		<map key="澳门身份证" mapping="B" desc="澳门身份证 " />
+		<map key="台湾身份证" mapping="C" desc="台湾身份证 " />
+		<map key="其他证件" mapping="X" desc="其他证件" />
+	</mapping>
+	
+	<mapping id="reason_type" desc="查询原因" useing="true">
+		<map2 key="贷后管理" mapping="01" desc="贷后管理 " />
+		<map key="贷款审批" mapping="02" desc="贷款审批" />
+		<map key="信用卡审批" mapping="03" desc="信用卡审批" />
+		<map key="本人查询" mapping="04" desc="本人查询 " />
+		<map key="担保资格审查" mapping="08" desc="担保资格审查 " />
+		<map key="特约商户" mapping="19" desc="特约商户 " />
+	</mapping>
+	
+	<mapping id="sex_type" desc="查询原因" useing="true">
+		<map key="男性" mapping="1" desc="男性 " />
+		<map key="女性" mapping="2" desc="女性" />
+		<map key="未知" mapping="9" desc="未知" />
+	</mapping>
+	
+	<mapping id="wedst_type" desc="婚姻状况" useing="true">
+		<map key="未婚" mapping="1" desc="未婚 " />
+		<map key="已婚" mapping="2" desc="已婚" />
+		<map key="丧偶" mapping="3" desc="丧偶" />
+		<map key="离婚" mapping="4" desc="离婚" />
+		<map key="未知" mapping="9" desc="未知" />
+	</mapping>
+
+	<mapping id="loan_account_state" desc="贷款账号状态" useing="true">
+		<map key="正常" mapping="1" desc="正常 " />
+		<map key="逾期" mapping="2" desc="逾期" />
+		<map key="结清" mapping="3" desc="结清" />
+		<map key="呆帐" mapping="4" desc="呆账" />
+		<map key="呆帐" mapping="4" desc="呆账" />
+		<map key="转出" mapping="5" desc="转出" />
+		<map key="核销" mapping="6" desc="核销" />
+		<map key="销户" mapping="7" desc="销户" />
+	</mapping>
+	
+	<mapping id="loancard_account_state" desc="贷记卡账号状态" useing="true">
+		<map key="正常" mapping="1" desc="正常 " />
+		<map key="冻结" mapping="2" desc="冻结" />
+		<map key="止付" mapping="3" desc="止付" />
+		<map key="销户" mapping="4" desc="销户" />
+		<map key="呆帐" mapping="5" desc="呆账" />
+		<map key="呆账" mapping="5" desc="呆账" />
+		<map key="未激活" mapping="6" desc="未激活" />
+		<map key="转出" mapping="7" desc="转出" />
+		<map key="核销" mapping="8" desc="核销" />
+	</mapping>
+	
+	<mapping id="sloancard_account_state" desc="准贷记卡账号状态" useing="true">
+		<map key="正常" mapping="1" desc="正常 " />
+		<map key="冻结" mapping="2" desc="冻结" />
+		<map key="止付" mapping="3" desc="止付" />
+		<map key="销户" mapping="4" desc="销户" />
+		<map key="呆帐" mapping="5" desc="呆账" />
+		<map key="呆账" mapping="5" desc="呆账" />
+		<map key="未激活" mapping="6" desc="未激活" />
+		<map key="转出" mapping="7" desc="转出" />
+		<map key="核销" mapping="8" desc="核销" />
+	</mapping>
+	
+	<!-- 微信服务字典映射 -->
+	<mapping id="PLATFORM" desc="主动还款中的平台映射" useing="true">
+		<map key="03" mapping="1" desc="微信 " />
+		<map key="02" mapping="2" desc="APP " />
+		<map key="01" mapping="3" desc="PC" />
+		<map key="04" mapping="4" desc="新开普" />
+		<map key="05" mapping="5" desc="银联" />
+	</mapping>
+	
+	<mapping id="edulevel_type" desc="最高学历" useing="true">
+		<map key="研究生" mapping="10" desc="研究生 " />
+		<map key='大学本科（简称"大学"）' mapping="20" desc='大学本科（简称"大学"）' />
+		<map key='大学专科和专科学校（简称"大专"）' mapping="30" desc='大学专科和专科学校（简称"大专"）' />
+		<map key="中等专业学校或中等技术学校" mapping="40" desc="中等专业学校或中等技术学校" />
+		<map key="技术学校" mapping="50" desc="技术学校 " />
+		<map key="高中" mapping="60" desc="高中" />
+		<map key="初中" mapping="70" desc="初中" />
+		<map key="小学" mapping="80" desc="小学 " />
+		<map key="文盲或半文盲" mapping="90" desc="文盲或半文盲 " />
+		<map key="未知" mapping="99" desc="未知" />				
+	</mapping>
+	
+	<mapping id="edudegree_type" desc="最高学位" useing="true">
+		<map key="其他" mapping="0" desc="其他 " />
+		<map key="名誉博士" mapping="1" desc="名誉博士" />
+		<map key="博士" mapping="2" desc="博士" />
+		<map key="硕士" mapping="3" desc="硕士" />
+		<map key="学士" mapping="4" desc="学士" />
+		<map key="未知" mapping="9" desc="未知" />				
+	</mapping>
+	
+	<mapping id="occupation_type" desc="职业" useing="true">
+		<map key="国家机关、党群组织、企业、事业单位负责人" mapping="0" desc="国家机关、党群组织、企业、事业单位负责人" />
+		<map key="专业技术人员" mapping="1" desc="专业技术人员" />
+		<map key="办事人员和有关人员" mapping="3" desc="办事人员和有关人员" />
+		<map key="商业、服务业人员" mapping="4" desc="商业、服务业人员" />
+		<map key="农、林、牧、渔、水利业生产人员" mapping="5" desc="农、林、牧、渔、水利业生产人员" />
+		<map key="生产、运输设备操作人员及有关人员" mapping="6" desc="生产、运输设备操作人员及有关人员" />
+		<map key="军人" mapping="X" desc="军人" />
+		<map key="不便分类的其他从业人员" mapping="Y" desc="不便分类的其他从业人员" />
+		<map key="不便分类的其它从业人员" mapping="Y" desc="不便分类的其它从业人员" />
+		<map key="未知" mapping="Z" desc="未知" />				
+	</mapping>
+	
+	<mapping id="industry_type" desc="单位所属行业" useing="true">
+		<map key="农、林、牧、渔业" mapping="A" desc="农、林、牧、渔业 " />
+		<map key="采掘业" mapping="B" desc="采掘业" />
+		<map key="制造业" mapping="C" desc="制造业" />
+		<map key="电力、燃气及水的生产和供应业" mapping="D" desc="电力、燃气及水的生产和供应业" />
+		<map key="建筑业" mapping="E" desc="建筑业" />
+		<map key="交通运输、仓储和邮政业" mapping="F" desc="交通运输、仓储和邮政业" />		
+		<map key="信息传输、计算机服务和软件业" mapping="G" desc="信息传输、计算机服务和软件业" />
+		<map key="批发和零售业" mapping="H" desc="批发和零售业" />
+		<map key="住宿和餐饮业" mapping="I" desc="住宿和餐饮业" />
+		<map key="金融业" mapping="J" desc="金融业" />
+		<map key="房地产业" mapping="K" desc="房地产业" />
+		<map key="租赁和商务服务业" mapping="L" desc="租赁和商务服务业" />	
+		<map key="科学研究、技术服务业和地质勘察业" mapping="M" desc="科学研究、技术服务业和地质勘察业" />
+		<map key="水利、环境和公共设施管理业" mapping="N" desc="水利、环境和公共设施管理业" />
+		<map key="居民服务和其他服务业" mapping="O" desc="居民服务和其他服务业" />
+		<map key="教育" mapping="P" desc="教育" />
+		<map key="卫生、社会保障和社会福利业" mapping="Q" desc="卫生、社会保障和社会福利业" />
+		<map key="文化、体育和娱乐业" mapping="R" desc="文化、体育和娱乐业" />	
+		<map key="公共管理和社会组织" mapping="S" desc="公共管理和社会组织" />
+		<map key="国际组织" mapping="T" desc="国际组织" />
+		<map key="未知" mapping="Z" desc="未知" />					
+	</mapping>
+	
+	<mapping id="duty_type" desc="职务" useing="true">
+		<map key="高级领导（行政级别局级及局级以上领导或大公司高级管理人员）" mapping="1" desc="高级领导（行政级别局级及局级以上领导或大公司高级管理人员）" />
+		<map key="中级领导（行政级别局级以下领导或大公司中级管理人员）" mapping="2" desc="中级领导（行政级别局级以下领导或大公司中级管理人员）" />
+		<map key="高级领导" mapping="1" desc="高级领导（行政级别局级及局级以上领导或大公司高级管理人员）" />
+		<map key="中级领导" mapping="2" desc="中级领导（行政级别局级以下领导或大公司中级管理人员）" />
+		<map key="一般员工" mapping="3" desc="一般员工" />
+		<map key="其他" mapping="4" desc="其他" />
+		<map key="未知" mapping="9" desc="未知" />				
+	</mapping>
+	
+	<mapping id="title_type" desc="职称" useing="true">
+		<map key="无" mapping="0" desc="无" />
+		<map key="高级" mapping="1" desc="高级" />
+		<map key="中级" mapping="2" desc="中级" />
+		<map key="初级" mapping="3" desc="初级" />
+		<map key="未知" mapping="9" desc="未知" />				
+	</mapping>
+	
+	<mapping id="residence_type" desc="居住状况" useing="true">
+		<map key="自置" mapping="1" desc="自置" />
+		<map key="按揭" mapping="2" desc="按揭" />
+		<map key="亲属楼宇" mapping="3" desc="亲属楼宇" />
+		<map key="集体宿舍" mapping="4" desc="集体宿舍" />
+		<map key="租房" mapping="5" desc="租房" />	
+		<map key="共有住宅" mapping="6" desc="共有住宅" />
+		<map key="其他" mapping="7" desc="其他" />
+		<map key="未知" mapping="9" desc="未知" />					
+	</mapping>	
+	
+	<mapping id="class5state_type" desc="五级分类状态" useing="true">
+		<map key="正常" mapping="1" desc="正常" />
+		<map key="关注" mapping="2" desc="关注" />
+		<map key="次级" mapping="3" desc="次级" />
+		<map key="可疑" mapping="4" desc="可疑" />
+		<map key="损失" mapping="5" desc="损失" />
+		<map key="未知" mapping="9" desc="未知" />				
+	</mapping>		
+
+	<mapping id="business_type" desc="业务种类" useing="true">
+		<map key="个人住房贷款" mapping="11" desc="个人住房贷款" />
+		<map key="个人商用房（包括商住两用）贷款" mapping="12" desc="个人商用房（包括商住两用）贷款" />
+		<map key="个人商用房贷款" mapping="12" desc="个人商用房（包括商住两用）贷款" />
+		<map key="个人住房公积金贷款" mapping="13" desc="个人住房公积金贷款" />
+		<map key="个人汽车消费贷款" mapping="21" desc="个人汽车消费贷款" />
+		<map key="个人汽车贷款" mapping="21" desc="个人汽车贷款" />
+		<map key="个人助学贷款" mapping="31" desc="个人助学贷款" />	
+		<map key="个人经营性贷款" mapping="41" desc="个人经营性贷款" />
+		<map key="农户贷款" mapping="51" desc="农户贷款" />
+		<map key="准贷记卡" mapping="71" desc="准贷记卡" />	
+		<map key="贷记卡" mapping="81" desc="贷记卡" />
+		<map key="个人消费贷款" mapping="91" desc="个人消费贷款" />
+		<map key="其他" mapping="99" desc="其他" />				
+	</mapping>
+
+	<mapping id="guarantee_type" desc="担保方式" useing="true">
+		<map key="质押（含保证金）" mapping="1" desc="质押（含保证金）" />
+		<map key="抵押" mapping="2" desc="抵押" />
+		<map key="抵押担保" mapping="2" desc="抵押担保" />
+		<map key="自然人保证" mapping="3" desc="自然人保证" />
+		<map key="保证" mapping="3" desc="保证" />
+		<map key="信用/免担保" mapping="4" desc="信用/免担保" />
+		<map key="组合（含自然人保证）" mapping="5" desc="组合（含自然人保证）" />	
+		<map key="组合（不含自然人保证）" mapping="6" desc="组合（不含自然人保证）" />
+		<map key="组合（含保证）" mapping="5" desc="组合（含保证）" />	
+		<map key="组合（不含保证）" mapping="6" desc="组合（不含保证）" />
+		<map key="农户联保" mapping="7" desc="农户联保" />
+		<map key="其他" mapping="9" desc="其他" />					
+		<map key="其他担保" mapping="9" desc="其他担保" />					
+	</mapping>
+
+	<mapping id="paymentrating_type" desc="还款频率" useing="true">
+		<map key="日" mapping="01" desc="日" />
+		<map key="周" mapping="02" desc="周" />
+		<map key="月" mapping="03" desc="月" />
+		<map key="季" mapping="04" desc="季" />
+		<map key="半年" mapping="05" desc="半年" />	
+		<map key="年" mapping="06" desc="年" />
+		<map key="一次性" mapping="07" desc="一次性" />
+		<map key="不定期（还款日之间的时间间隔不是固定周期）" mapping="08" desc="不定期（还款日之间的时间间隔不是固定周期）" />
+		<map key="不定期" mapping="08" desc="不定期（还款日之间的时间间隔不是固定周期）" />
+		<map key="其他" mapping="99" desc="其他" />					
+		<map key="其他方式" mapping="99" desc="其他方式" />					
+		<map key="信用卡" mapping="C" desc="信用卡" />					
+	</mapping>
+	<mapping id="accfund_status" desc="住房公积金账户状态" useing="true">
+		<map key="缴交" mapping="001" desc="缴交" />
+		<map key="封存" mapping="002" desc="封存" />
+		<map key="销户" mapping="003" desc="销户" />
+	</mapping>
+	<mapping id="endowinsurdeposit_status" desc="养老保险缴存状态" useing="true">
+		<map key="未参保" mapping="0" desc="未参保" />
+		<map key="参保缴费" mapping="1" desc="参保缴费" />
+		<map key="暂停缴费(中断)" mapping="2" desc="暂停缴费(中断)" />
+		<map key="终止缴费" mapping="3" desc="终止缴费" />
+		<map key="--" mapping="#" desc="未知：没有此期数据" />
+	</mapping>
+	<mapping id="endowinsurdeliverinfo_retiretype" desc="养老保险离退休类别" useing="true">
+		<map key="离休" mapping="1" desc="离休" />
+		<map key="正常退休" mapping="2" desc="正常退休" />
+		<map key="退职" mapping="3" desc="退职" />
+		<map key="因病提前退休/因病退休" mapping="4" desc="因病提前退休/因病退休" />
+		<map key="特殊工种提前退休/特殊工种退休" mapping="5" desc="特殊工种提前退休/特殊工种退休" />
+		<map key="工伤提前退休/原工伤退休" mapping="6" desc="工伤提前退休/原工伤退休" />
+		<map key="政策性提前退休" mapping="7" desc="政策性提前退休" />
+		<map key="特殊政策提前退休" mapping="8" desc="特殊政策提前退休" />
+		<map key="其他提前退休" mapping="9" desc="其他提前退休" />
+	</mapping>
+	<mapping id="endowinsurdeliverinfo_pausereason" desc="养老保险停发原因" useing="true">
+		<map key="离退休人员未提供生存证明" mapping="01" desc="离退休人员未提供生存证明" />
+		<map key="离退休人员劳改劳教" mapping="02" desc="离退休人员劳改劳教" />
+		<map key="离退休人员失踪" mapping="03" desc="离退休人员失踪" />
+		<map key="离退休人员出国定居" mapping="04" desc="离退休人员出国定居" />
+		<map key="离退休人员死亡" mapping="05" desc="离退休人员死亡" />
+		<map key="其他原因停发养老金" mapping="06" desc="其他原因停发养老金" />
+		<map key="离退休人员未提供生存证明" mapping="1201" desc="离退休人员未提供生存证明" />
+		<map key="离退休人员被判刑收监执行或被劳动教养" mapping="1202" desc="离退休人员被判刑收监执行或被劳动教养" />
+		<!-- <map key="离退休人员失踪" mapping="1203" desc="离退休人员失踪" /> -->
+		<map key="银行帐号错误" mapping="1204" desc="银行帐号错误" />
+		<map key="邮寄地址错误" mapping="1205" desc="邮寄地址错误" />
+		<map key="其他原因暂停养老待遇" mapping="1206" desc="其他原因暂停养老待遇" />
+		<!-- <map key="离退休人员死亡" mapping="1401" desc="离退休人员死亡" /> -->
+		<!-- <map key="离退休人员出国定居" mapping="1402" desc="离退休人员出国定居" /> -->
+		<map key="离退休人员港澳台定居" mapping="1403" desc="离退休人员港澳台定居" />
+		<!-- <map key="其他原因终止养老待遇" mapping="1499" desc="其他原因终止养老待遇" /> -->
+	</mapping>
+	<mapping id="endowinsurdeposit_pausereason" desc="养老保险中断或终止缴费原因" useing="true">
+		<map key="在职人员解除劳动合同" mapping="01" desc="在职人员解除劳动合同" />
+		<map key="在职人员参军" mapping="02" desc="在职人员参军" />
+		<map key="在职人员上学" mapping="03" desc="在职人员上学" />
+		<map key="在职人员劳改劳教" mapping="04" desc="在职人员劳改劳教" />
+		<map key="其他原因中断缴费" mapping="05" desc="其他原因中断缴费" />
+		<map key="在职人员死亡" mapping="06" desc="在职人员死亡" />
+		<map key="在职人员出国定居" mapping="07" desc="在职人员出国定居" />
+		<map key="在职转退休" mapping="08" desc="在职转退休" />
+		<map key="农民工退保" mapping="09" desc="农民工退保" />
+		<map key="其他原因终止缴费" mapping="10" desc="其他原因终止缴费" />
+		<map key="在职人员解除/终止劳动合同" mapping="6301" desc="在职人员解除/终止劳动合同" />
+		<map key="人员统筹范围内转出" mapping="6302" desc="人员统筹范围内转出" />
+		<map key="人员参军" mapping="6303" desc="人员参军" />
+		<map key="人员上学" mapping="6304" desc="人员上学" />
+		<map key="人员被判刑收监执行或被劳动教养" mapping="6305" desc="人员被判刑收监执行或被劳动教养" />
+		<map key="人员失踪" mapping="6306" desc="人员失踪" />
+		<map key="停薪留职" mapping="6307" desc="停薪留职" />
+		<map key="其他原因中断缴费" mapping="6399" desc="其他原因中断缴费" />
+		<map key="死亡" mapping="6401" desc="死亡" />
+		<map key="出国定居" mapping="6402" desc="出国定居" />
+		<map key="港澳台定居" mapping="6403" desc="港澳台定居" />
+		<map key="人员转出统筹范围外" mapping="6404" desc="人员转出统筹范围外" />
+		<map key="退保" mapping="6405" desc="退保" />
+		<map key="其他原因终止缴费" mapping="6499" desc="其他原因终止缴费" />
+		<map key="在职转退休" mapping="6501" desc="在职转退休" />
+	</mapping>
+	
+	<!-- 二代征信字典 -->
+	<mapping id="idtty_class" desc="身份类别代码表" useing="true">
+		<map key="自然人" mapping="1" desc="" />
+		<map key="组织机构" mapping="1" desc="" />
+	</mapping>
+	<mapping id="indiv_id_type" desc="个人证件类型代码表" useing="true">
+		<map key="1" mapping="户口簿" desc="" />
+		<map key="2" mapping="护照" desc="" />
+		<map key="5" mapping="港澳居民来往内地通行证" desc="" />
+		<map key="6" mapping="台湾同胞来往内地通行证" desc="" />
+		<map key="8" mapping="外国人居留证" desc="" />
+		<map key="9" mapping="警官证" desc="" />
+		<map key="A" mapping="香港身份证" desc="" />
+		<map key="B" mapping="澳门身份证" desc="" />
+		<map key="C" mapping="台湾身份证" desc="" />
+		<map key="X" mapping="其他证件" desc="" />
+		<map key="10" mapping="身份证" desc="" />
+		<map key="20" mapping="军人身份证件" desc="" />
+	</mapping>
+	<mapping id="rev_fraud_warn_ind" desc="防欺诈警示标志代码表" useing="true">
+		<map key="0" mapping="否" desc="" />
+		<map key="1" mapping="是" desc="" />
+	</mapping>
+	<mapping id="qry_rsn" desc="查询原因代码表" useing="true">
+		<map key="01" mapping="贷后管理" desc="" />
+		<map key="02" mapping="贷款审批" desc="" />
+		<map key="03" mapping="信用卡审批" desc="" />
+		<map key="08" mapping="担保资格审查" desc="" />
+		<map key="09" mapping="司法调查" desc="" />
+		<map key="16" mapping="公积金提取复核查询" desc="" />
+		<map key="18" mapping="股指期货开户" desc="" />
+		<map key="19" mapping="特约商户实名审查" desc="" />
+		<map key="20" mapping="保前审查" desc="" />
+		<map key="21" mapping="保后管理" desc="" />
+		<map key="22" mapping="法人代表、负责人、高管等资信审查" desc="" />
+		<map key="23" mapping="客户准入资格审查" desc="" />
+		<map key="24" mapping="融资审批" desc="" />
+		<map key="25" mapping="资信审查" desc="" />
+		<map key="26" mapping="额度审批" desc="" />
+	</mapping>
+	<mapping id="resdnt_situ" desc="居住状况代码表" useing="true">
+		<map key="1" mapping="自置" desc="" />
+		<map key="2" mapping="按揭" desc="" />
+		<map key="3" mapping="亲属楼宇" desc="" />
+		<map key="4" mapping="集体宿舍" desc="" />
+		<map key="5" mapping="租房" desc="" />
+		<map key="6" mapping="共有住宅" desc="" />
+		<map key="7" mapping="其他" desc="" />
+		<map key="11" mapping="自有" desc="" />
+		<map key="12" mapping="借住" desc="" />
+		<map key="9" mapping="未知" desc="" />
+	</mapping>
+	<mapping id="corp_char" desc="单位性质代码表" useing="true">
+		<map key="10" mapping="机关、事业单位" desc="" />
+		<map key="20" mapping="国有企业" desc="" />
+		<map key="30" mapping="外资企业" desc="" />
+		<map key="40" mapping="个体、私营企业" desc="" />
+		<map key="50" mapping="其他（包括三资企业、民营企业、民间团体等）" desc="" />
+		<map key="99" mapping="未知" desc="" />
+	</mapping>
+	<mapping id="occupation" desc="职业代码表" useing="true">
+		<map key="0" mapping="国家机关、党群组织、企业、事业单位负责人" desc="" />
+		<map key="1" mapping="专业技术人员" desc="" />
+		<map key="3" mapping="办事人员和有关人员" desc="" />
+		<map key="4" mapping="商业、服务人员" desc="" />
+		<map key="5" mapping="农、林、牧、渔、水利业生产人员" desc="" />
+		<map key="6" mapping="生产、运输设备操作人员及有关人员" desc="" />
+		<map key="X" mapping="军人" desc="" />
+		<map key="Y" mapping="不便分类的其他从业人员" desc="" />
+		<map key="Z" mapping="未知" desc="" />
+	</mapping>
+	<mapping id="pos" desc="职务代码表" useing="true">
+		<map key="1" mapping="高级领导" desc="" />
+		<map key="2" mapping="中级领导" desc="" />
+		<map key="3" mapping="一般员工" desc="" />
+		<map key="4" mapping="其他" desc="" />
+		<map key="9" mapping="未知" desc="" />
+	</mapping>
+	<mapping id="prof_title" desc="职称代码表" useing="true">
+		<map key="0" mapping="无" desc="" />
+		<map key="1" mapping="高级" desc="" />
+		<map key="2" mapping="中级" desc="" />
+		<map key="3" mapping="初级" desc="" />
+		<map key="9" mapping="未知" desc="" />
+	</mapping>
+	<mapping id="point_comnt" desc="分数影响因素说明代码表" useing="true">
+		<map key="00" mapping="无影响因素" desc="" />
+		<map key="01" mapping="存在逾期还款记录" desc="" />
+		<map key="02" mapping="存在展期记录" desc="" />
+		<map key="03" mapping="当前债务相对较多" desc="" />
+		<map key="04" mapping="当前信用卡债务笔数相对较多" desc="" />
+		<map key="05" mapping="当前债务笔数相对较多" desc="" />
+		<map key="06" mapping="当前信用卡额度使率相对较高" desc="" />
+		<map key="07" mapping="信用历史较短" desc="" />
+		<map key="08" mapping="信用卡历史较短" desc="" />
+		<map key="09" mapping="近期新增债务笔数较多" desc="" />
+		<map key="10" mapping="近期硬查询次数较多" desc="" />
+		<map key="11" mapping="近期没有信用活动" desc="" />
+		<map key="12" mapping="信用活动相对较为单一" desc="" />
+		<map key="13" mapping="近期信用卡息相对不足" desc="" />
+		<map key="14" mapping="近期贷款信息相对不足" desc="" />
+		<map key="15" mapping="近期信用息相对不足" desc="" />
+		<map key="16" mapping="债务种类相对不够丰富" desc="" />
+		<map key="91" mapping="无信贷记录" desc="" />
+		<map key="92" mapping="信用历史小于3个月" desc="" />
+		<map key="93" mapping="缺少近两年的信贷信息" desc="" />
+		<map key="99" mapping="其他" desc="" />
+	</mapping>
+	<mapping id="ictp_biz_type" desc="个人信贷交易提示业务类型代码表" useing="true">
+		<map key="11" mapping="个人住房贷款" desc="" />
+		<map key="12" mapping="个人商用房（包括商住两用房）贷款" desc="" />
+		<map key="19" mapping="其他类贷款" desc="" />
+		<map key="21" mapping="贷记卡" desc="" />
+		<map key="22" mapping="准贷记卡" desc="" />
+		<map key="99" mapping="其他" desc="" />
+	</mapping>
+	<mapping id="ictp_biz_bclass" desc="个人信贷交易提示业务大类代码表" useing="true">
+		<map key="1" mapping="贷款" desc="" />
+		<map key="2" mapping="信用卡" desc="" />
+		<map key="9" mapping="其他" desc="" />
+	</mapping>
+	<mapping id="byrecs_biz_type" desc="个人被追偿汇总信息业务类型代码表" useing="true">
+		<map key="1" mapping="资产处置业务" desc="" />
+		<map key="2" mapping="垫款业务" desc="" />
+	</mapping>
+	<mapping id="od_acct_type" desc="个人逾期（透支）汇总信息账户类型代码表" useing="true">
+		<map key="1" mapping="非循环贷账户" desc="" />
+		<map key="2" mapping="循环额度下分账户" desc="" />
+		<map key="3" mapping="循环贷账户" desc="" />
+		<map key="4" mapping="贷记卡账户" desc="" />
+		<map key="5" mapping="准贷记卡账户" desc="" />
+	</mapping>
+	<mapping id="rela_repay_respon_ty" desc="相关还款责任类型代码表" useing="true">
+		<map key="1" mapping="担保责任" desc="" />
+		<map key="9" mapping="其他相关还款责任" desc="" />
+	</mapping>
+	<mapping id="bkfee_biz_type" desc="后付费业务类型代码表" useing="true">
+		<map key="1" mapping="电信业务" desc="" />
+	</mapping>
+	<mapping id="pub_info_type" desc="公共信息类型代码表" useing="true">
+		<map key="1" mapping="欠税信息" desc="" />
+		<map key="2" mapping="民事判决信息" desc="" />
+		<map key="3" mapping="强制执行信息" desc="" />
+		<map key="4" mapping="行政处罚信息" desc="" />
+	</mapping>
+	<mapping id="org_type" desc="机构类型代码表" useing="true">
+		<map key="11" mapping="商业银行" desc="" />
+		<map key="12" mapping="村镇银行" desc="" />
+		<map key="14" mapping="住房储蓄银行" desc="" />
+		<map key="15" mapping="外资银行" desc="" />
+		<map key="16" mapping="财务公司" desc="" />
+		<map key="21" mapping="信托公司" desc="" />
+		<map key="22" mapping="融资租赁公司" desc="" />
+		<map key="23" mapping="汽车金融公司" desc="" />
+		<map key="24" mapping="消费金融公司" desc="" />
+		<map key="25" mapping="贷款公司" desc="" />
+		<map key="26" mapping="金融资产管理公司" desc="" />
+		<map key="31" mapping="证券公司" desc="" />
+		<map key="41" mapping="保险公司" desc="" />
+		<map key="51" mapping="小额贷款公司" desc="" />
+		<map key="52" mapping="公积金管理中心" desc="" />
+		<map key="53" mapping="融资担保公司" desc="" />
+		<map key="99" mapping="其他机构" desc="" />
+	</mapping>
+	<mapping id="acct_type" desc="账户类型代码表" useing="true">
+		<map key="D1" mapping="非循环贷账户" desc="" />
+		<map key="R1" mapping="循环贷账户" desc="" />
+		<map key="R2" mapping="贷记卡账户" desc="" />
+		<map key="R3" mapping="准贷记卡账户" desc="" />
+		<map key="R4" mapping="循环额度下分账户" desc="" />
+		<map key="C1" mapping="催收账户" desc="" />
+	</mapping>
+	<mapping id="biz_type" desc="业务种类代码表" useing="true">
+		<map key="11" mapping="个人住房商业贷款" desc="" />
+		<map key="12" mapping="个人商用房（含商住两用）贷款" desc="" />
+		<map key="13" mapping="个人住房公积金贷款" desc="" />
+		<map key="21" mapping="个人汽车消费贷款" desc="" />
+		<map key="31" mapping="个人助学贷款" desc="" />
+		<map key="32" mapping="国家助学贷款" desc="" />
+		<map key="33" mapping="商业助学贷款" desc="" />
+		<map key="41" mapping="个人经营性贷款" desc="" />
+		<map key="51" mapping="农户贷款" desc="" />
+		<map key="52" mapping="经营性农户贷款" desc="" />
+		<map key="53" mapping="消费性农户贷款" desc="" />
+		<map key="91" mapping="其他个人消费贷款" desc="" />
+		<map key="99" mapping="其他贷款" desc="" />
+		<map key="71" mapping="准贷记卡" desc="" />
+		<map key="81" mapping="贷记卡" desc="" />
+		<map key="82" mapping="大额专项分期卡" desc="" />
+		<map key="61" mapping="约定购回式证券交易" desc="" />
+		<map key="62" mapping="股票质押式回购交易" desc="" />
+		<map key="63" mapping="融资融券业务" desc="" />
+		<map key="64" mapping="其他证券类融资" desc="" />
+		<map key="92" mapping="融资租赁业务" desc="" />
+		<map key="A1" mapping="资产处置" desc="" />
+		<map key="B1" mapping="代偿债务" desc="" />
+	</mapping>
+	<mapping id="repay_mode" desc="还款方式代码表" useing="true">
+		<map key="11" mapping="分期等额本息" desc="" />
+		<map key="12" mapping="分期等额本金" desc="" />
+		<map key="13" mapping="到期还本分期结息" desc="" />
+		<map key="14" mapping="等比累进分期还款" desc="" />
+		<map key="15" mapping="等额累进分期还款" desc="" />
+		<map key="19" mapping="其他类型分期还款" desc="" />
+		<map key="21" mapping="到期一次还本付息" desc="" />
+		<map key="22" mapping="预先付息到期还本" desc="" />
+		<map key="23" mapping="随时还" desc="" />
+		<map key="29" mapping="其他类型非分期还款" desc="" />
+		<map key="31" mapping="按期结息，到期还本" desc="" />
+		<map key="32" mapping="按期结息，自由还本" desc="" />
+		<map key="33" mapping="按期计算还本付息" desc="" />
+		<map key="39" mapping="循环贷款下其他还款方式" desc="" />
+		<map key="90" mapping="不区分还款方式" desc="" />
+	</mapping>
+	<mapping id="repay_freq" desc="还款频率代码表" useing="true">
+		<map key="01" mapping="日" desc="" />
+		<map key="02" mapping="周" desc="" />
+		<map key="03" mapping="月" desc="" />
+		<map key="04" mapping="季" desc="" />
+		<map key="05" mapping="半年" desc="" />
+		<map key="06" mapping="年" desc="" />
+		<map key="07" mapping="一次性" desc="" />
+		<map key="08" mapping="不定期" desc="" />
+		<map key="12" mapping="旬" desc="" />
+		<map key="13" mapping="双周" desc="" />
+		<map key="14" mapping="双月" desc="" />
+		<map key="99" mapping="其他" desc="" />
+	</mapping>
+	<mapping id="indiv_loan_distr_for" desc="个人贷款发放形式代码表" useing="true">
+		<map key="1" mapping="新增" desc="" />
+		<map key="5" mapping="其他机构转入" desc="" />
+	</mapping>
+	<mapping id="guar_mode" desc="担保方式代码表" useing="true">
+		<map key="1" mapping="质押" desc="" />
+		<map key="2" mapping="抵押" desc="" />
+		<map key="3" mapping="保证" desc="" />
+		<map key="4" mapping="信用/免担保" desc="" />
+		<map key="5" mapping="组合(含保证)" desc="" />
+		<map key="6" mapping="组合（不含保证）" desc="" />
+		<map key="7" mapping="农户联保" desc="" />
+		<map key="9" mapping="其他" desc="" />
+	</mapping>
+	<mapping id="co_loan_ind" desc="共同借款标志代码表" useing="true">
+		<map key="0" mapping="无" desc="" />
+		<map key="1" mapping="主借款人" desc="" />
+		<map key="2" mapping="从借款人" desc="" />
+	</mapping>
+	<mapping id="claim_tran_repay_sts" desc="债权转移时的还款状态代码表" useing="true">
+		<map key="0" mapping="债务人即将违约时自动垫款" desc="" />
+		<map key="1" mapping="逾期1-30天" desc="" />
+		<map key="2" mapping="逾期31-60天" desc="" />
+		<map key="3" mapping="逾期61-90天" desc="" />
+		<map key="4" mapping="逾期91-120天" desc="" />
+		<map key="5" mapping="逾期121-150天" desc="" />
+		<map key="6" mapping="逾期151-180天" desc="" />
+		<map key="7" mapping="逾期180天以上" desc="" />
+		<map key="9" mapping="未知" desc="" />
+	</mapping>
+	<mapping id="d1_acct_sts" desc="个人借贷D1账户状态代码表" useing="true">
+		<map key="1" mapping="正常" desc="" />
+		<map key="2" mapping="逾期" desc="" />
+		<map key="3" mapping="结清" desc="" />
+		<map key="4" mapping="呆账" desc="" />
+		<map key="5" mapping="转出" desc="" />
+		<map key="6" mapping="担保物不足" desc="" />
+		<map key="7" mapping="强制平仓" desc="" />
+		<map key="8" mapping="司法追偿" desc="" />
+	</mapping>
+	<mapping id="r1_acct_sts" desc="个人借贷R1账户状态代码表" useing="true">
+		<map key="1" mapping="正常" desc="" />
+		<map key="2" mapping="逾期" desc="" />
+		<map key="3" mapping="结清" desc="" />
+		<map key="4" mapping="呆账" desc="" />
+		<map key="5" mapping="银行止付" desc="" />
+		<map key="6" mapping="担保物不足" desc="" />
+		<map key="8" mapping="司法追偿" desc="" />
+	</mapping>
+	<mapping id="r2r3_acct_sts" desc="个人借贷R2/R3账户状态代码表" useing="true">
+		<map key="1" mapping="正常" desc="" />
+		<map key="2" mapping="冻结" desc="" />
+		<map key="3" mapping="止付" desc="" />
+		<map key="31" mapping="银行止付" desc="" />
+		<map key="4" mapping="销户" desc="" />
+		<map key="5" mapping="呆账" desc="" />
+		<map key="6" mapping="未激活" desc="" />
+		<map key="8" mapping="司法追偿" desc="" />
+	</mapping>
+	<mapping id="r4_acct_sts" desc="个人借贷R4账户状态代码表" useing="true">
+		<map key="1" mapping="正常" desc="" />
+		<map key="2" mapping="逾期" desc="" />
+		<map key="3" mapping="结清" desc="" />
+		<map key="4" mapping="呆账" desc="" />
+		<map key="6" mapping="担保物不足" desc="" />
+		<map key="8" mapping="司法追偿" desc="" />
+	</mapping>
+	<mapping id="c1_acct_sts" desc="个人借贷C1账户状态代码表" useing="true">
+		<map key="1" mapping="催收" desc="" />
+		<map key="2" mapping="结束" desc="" />
+	</mapping>
+	<mapping id="grade5_class" desc="五级分类代码表" useing="true">
+		<map key="1" mapping="正常" desc="" />
+		<map key="2" mapping="关注" desc="" />
+		<map key="3" mapping="次级" desc="" />
+		<map key="4" mapping="可疑" desc="" />
+		<map key="5" mapping="损失" desc="" />
+		<map key="9" mapping="未分类" desc="" />
+	</mapping>
+	<mapping id="d1r4_repay_sts" desc="个人借贷D1/R4账户还款状态代码表" useing="true">
+		<map key="*" mapping="当月不需要还款且之前没有拖欠" desc="" />
+		<map key="N" mapping="正常还款" desc="" />
+		<map key="D" mapping="担保人代还" desc="" />
+		<map key="Z" mapping="以资抵债" desc="" />
+		<map key="M" mapping="约定还款日后月底前还款" desc="" />
+		<map key="1" mapping="逾期1-30天" desc="" />
+		<map key="2" mapping="逾期31-60天" desc="" />
+		<map key="3" mapping="逾期61-90天" desc="" />
+		<map key="4" mapping="逾期91-120天" desc="" />
+		<map key="5" mapping="逾期121-150天" desc="" />
+		<map key="6" mapping="逾期151-180天" desc="" />
+		<map key="7" mapping="逾期180天以上" desc="" />
+		<map key="B" mapping="呆账" desc="" />
+		<map key="C" mapping="结清" desc="" />
+		<map key="G" mapping="结束" desc="" />
+		<map key="#" mapping="未知" desc="" />
+	</mapping>
+	<mapping id="r1_repay_sts" desc="个人借贷R1账户还款状态代码表" useing="true">
+		<map key="*" mapping="当月未使用额度且不需要还款" desc="" />
+		<map key="N" mapping="正常还款" desc="" />
+		<map key="D" mapping="担保人代还" desc="" />
+		<map key="Z" mapping="以资抵债" desc="" />
+		<map key="M" mapping="约定还款日后月底前还款" desc="" />
+		<map key="1" mapping="逾期1-30天" desc="" />
+		<map key="2" mapping="逾期31-60天" desc="" />
+		<map key="3" mapping="逾期61-90天" desc="" />
+		<map key="4" mapping="逾期91-120天" desc="" />
+		<map key="5" mapping="逾期121-150天" desc="" />
+		<map key="6" mapping="逾期151-180天" desc="" />
+		<map key="7" mapping="逾期180天以上" desc="" />
+		<map key="B" mapping="呆账" desc="" />
+		<map key="C" mapping="正常销户" desc="" />
+		<map key="G" mapping="结束" desc="" />
+		<map key="#" mapping="未知" desc="" />
+	</mapping>
+	<mapping id="r2_repay_sts" desc="个人借贷R2账户还款状态代码表" useing="true">
+		<map key="*" mapping="当月未使用额度且不需要还款" desc="" />
+		<map key="N" mapping="正常还款" desc="" />
+		<map key="A" mapping="账单日调整，当月不出单" desc="" />
+		<map key="1" mapping="逾期1-30天" desc="" />
+		<map key="2" mapping="逾期31-60天" desc="" />
+		<map key="3" mapping="逾期61-90天" desc="" />
+		<map key="4" mapping="逾期91-120天" desc="" />
+		<map key="5" mapping="逾期121-150天" desc="" />
+		<map key="6" mapping="逾期151-180天" desc="" />
+		<map key="7" mapping="逾期180天以上" desc="" />
+		<map key="B" mapping="呆账" desc="" />
+		<map key="C" mapping="正常销户" desc="" />
+		<map key="G" mapping="结束" desc="" />
+		<map key="#" mapping="未知" desc="" />
+	</mapping>
+	<mapping id="r3_repay_sts" desc="个人借贷R3账户还款状态代码表" useing="true">
+		<map key="*" mapping="本月没有透支行为且上月该账户没有透支余额" desc="" />
+		<map key="N" mapping="正常" desc="" />
+		<map key="1" mapping="逾期1-30天" desc="" />
+		<map key="2" mapping="逾期31-60天" desc="" />
+		<map key="3" mapping="逾期61-90天" desc="" />
+		<map key="4" mapping="逾期91-120天" desc="" />
+		<map key="5" mapping="逾期121-150天" desc="" />
+		<map key="6" mapping="逾期151-180天" desc="" />
+		<map key="7" mapping="逾期180天以上" desc="" />
+		<map key="B" mapping="呆账" desc="" />
+		<map key="C" mapping="正常销户" desc="" />
+		<map key="G" mapping="结束" desc="" />
+		<map key="#" mapping="未知" desc="" />
+	</mapping>
+	<mapping id="spcl_tx_type" desc="特殊交易类型代码表" useing="true">
+		<map key="1" mapping="展期" desc="" />
+		<map key="2" mapping="担保人（第三方）代偿" desc="" />
+		<map key="3" mapping="以资抵债" desc="" />
+		<map key="4" mapping="提前还款" desc="" />
+		<map key="5" mapping="提前结清" desc="" />
+		<map key="6" mapping="强制平仓，未结清" desc="" />
+		<map key="7" mapping="强制平仓，已结清" desc="" />
+		<map key="8" mapping="司法追偿" desc="" />
+		<map key="9" mapping="其他" desc="" />
+		<map key="11" mapping="债务减免" desc="" />
+		<map key="12" mapping="资产剥离" desc="" />
+		<map key="13" mapping="资产转让" desc="" />
+		<map key="14" mapping="信用卡个性化分期" desc="" />
+		<map key="16" mapping="银行主动延期" desc="" />
+		<map key="17" mapping="强制平仓" desc="" />
+	</mapping>
+	<mapping id="spcl_event_type" desc="特殊事件类型代码表" useing="true">
+		<map key="11" mapping="信用卡因调整账单日本月不出单" desc="" />
+		<map key="12" mapping="已注销信用卡账户重启" desc="" />
+	</mapping>
+	<mapping id="mark_decl_type" desc="标注及声明类型代码表" useing="true">
+		<map key="1" mapping="异议标注" desc="" />
+		<map key="2" mapping="特殊标注" desc="" />
+		<map key="3" mapping="本人声明" desc="" />
+		<map key="4" mapping="机构说明" desc="" />
+		<map key="5" mapping="征信中心说明" desc="" />
+	</mapping>
+	<mapping id="crdt_limit_purpose" desc="个人授信额度用途代码表" useing="true">
+		<map key="10" mapping="循环贷款额度" desc="" />
+		<map key="20" mapping="非循环贷款额度" desc="" />
+		<map key="30" mapping="信用卡共享额度" desc="" />
+		<map key="31" mapping="信用卡独立额度" desc="" />
+	</mapping>
+	<mapping id="crdt_agt_sts" desc="个人授信协议状态代码表" useing="true">
+		<map key="1" mapping="有效" desc="" />
+		<map key="2" mapping="到期/失效" desc="" />
+	</mapping>
+	<mapping id="dc_biz_bclass" desc="个人借贷业务大类代码表" useing="true">
+		<map key="1" mapping="贷款" desc="" />
+		<map key="2" mapping="信用卡" desc="" />
+		<map key="3" mapping="证券类融资" desc="" />
+		<map key="4" mapping="融资租赁" desc="" />
+		<map key="5" mapping="资产处置" desc="" />
+		<map key="6" mapping="垫款" desc="" />
+	</mapping>
+	<mapping id="corp_dc_biz_bclass" desc="企业借贷务大类代码表" useing="true">
+		<map key="10" mapping="企业债" desc="" />
+		<map key="11" mapping="贷款" desc="" />
+		<map key="12" mapping="贸易融资" desc="" />
+		<map key="13" mapping="保理融资" desc="" />
+		<map key="14" mapping="融资租赁" desc="" />
+		<map key="15" mapping="证券类融资" desc="" />
+		<map key="16" mapping="透支" desc="" />
+		<map key="21" mapping="票据贴现" desc="" />
+		<map key="31" mapping="黄金借贷" desc="" />
+		<map key="41" mapping="垫款" desc="" />
+		<map key="51" mapping="资产处置" desc="" />
+	</mapping>
+	<mapping id="rela_repay_princ_typ" desc="相关还款责任人类型代码表" useing="true">
+		<map key="1" mapping="共同借款人" desc="" />
+		<map key="2" mapping="保证人" desc="" />
+		<map key="3" mapping="票据承兑人" desc="" />
+		<map key="4" mapping="应收账款债务人" desc="" />
+		<map key="5" mapping="供应链中核心企业" desc="" />
+		<map key="9" mapping="其他" desc="" />
+	</mapping>
+	<mapping id="bkfee_acct_type" desc="后付费账户类型代码表" useing="true">
+		<map key="TE" mapping="电信缴费账户" desc="" />
+	</mapping>
+	<mapping id="tlm_fee_biz_type" desc="电信缴费业务类型代码表" useing="true">
+		<map key="1" mapping="固定电话" desc="" />
+		<map key="2" mapping="移动电话" desc="" />
+		<map key="3" mapping="互联网接入" desc="" />
+		<map key="4" mapping="数据专线及集群业务" desc="" />
+		<map key="5" mapping="卫星业务" desc="" />
+		<map key="6" mapping="组合业务" desc="" />
+		<map key="0" mapping="其他业务" desc="" />
+	</mapping>
+	<mapping id="tea_curr_sts" desc="电信缴费账户当前状态代码表" useing="true">
+		<map key="0" mapping="正常" desc="" />
+		<map key="1" mapping="欠费" desc="" />
+	</mapping>
+	<mapping id="tea_ltst24m_fee_sts" desc="电信缴费账户最近24个月缴费状态代码表" useing="true">
+		<map key="#" mapping="未知" desc="" />
+		<map key="*" mapping="服务已开通但本月不需缴费" desc="" />
+		<map key="N" mapping="正常" desc="" />
+		<map key="0" mapping="欠费超过宽限期不足1个月" desc="" />
+		<map key="1" mapping="欠费超过宽限期1个月不足2个月" desc="" />
+		<map key="2" mapping="欠费超过宽限期2个月不足3个月" desc="" />
+		<map key="3" mapping="欠费超过宽限期3个月不足4个月" desc="" />
+		<map key="4" mapping="欠费超过宽限期4个月不足5个月" desc="" />
+		<map key="5" mapping="欠费超过宽限期5个月不足6个月" desc="" />
+		<map key="6" mapping="欠费超过宽限期6个月以上" desc="" />
+		<map key="C" mapping="销户" desc="" />
+		<map key="G" mapping="结束" desc="" />
+	</mapping>
+	<mapping id="cv_jg_close_case_mod" desc="民事判决结案方式代码表" useing="true">
+		<map key="1" mapping="判决" desc="" />
+		<map key="2" mapping="调解" desc="" />
+		<map key="3" mapping="其他" desc="" />
+	</mapping>
+	<mapping id="cpec_close_case_mode" desc="强制执行结案方式代码表" useing="true">
+		<map key="001" mapping="不予执行" desc="" />
+		<map key="002" mapping="自动履行" desc="" />
+		<map key="003" mapping="和解履行完毕" desc="" />
+		<map key="004" mapping="执行完毕" desc="" />
+		<map key="005" mapping="终结执行" desc="" />
+		<map key="006" mapping="提级执行" desc="" />
+		<map key="007" mapping="指定执行" desc="" />
+		<map key="255" mapping="其他" desc="" />
+	</mapping>
+	<mapping id="provi_fund_fee_sts" desc="住房公积金缴费状态代码表" useing="true">
+		<map key="1" mapping="缴交" desc="" />
+		<map key="2" mapping="封存" desc="" />
+		<map key="3" mapping="销户" desc="" />
+	</mapping>
+	<mapping id="sa_help_staff_class" desc="低保救助人员类别代码表" useing="true">
+		<map key="1" mapping="在职职工" desc="" />
+		<map key="2" mapping="离岗" desc="" />
+		<map key="3" mapping="失业" desc="" />
+		<map key="4" mapping="离退休人员" desc="" />
+		<map key="5" mapping="三无人员" desc="" />
+		<map key="6" mapping="居民" desc="" />
+		<map key="7" mapping="学生" desc="" />
+	</mapping>
+	<mapping id="carer_qly_level" desc="职业资格等级代码表" useing="true">
+		<map key="1" mapping="国家级机构或行业协会颁发的执业资格证书" desc="" />
+		<map key="2" mapping="省市级机构或行业协会颁发的执业资格证书" desc="" />
+		<map key="3" mapping="地市级机构或行业协会颁发的执业资格证书" desc="" />
+		<map key="4" mapping="独立行业协会或制订行业标准的企业颁发的执业资格证书" desc="" />
+		<map key="5" mapping="其他机构颁发的执业资格证书" desc="" />
+	</mapping>
+	<mapping id="mark_decl_obj_type" desc="标注及声明对象类型代码表" useing="true">
+		<map key="1" mapping="报告" desc="" />
+		<map key="2" mapping="数据块" desc="" />
+	</mapping>
+	<mapping id="mark_decl_obj_sign" desc="标注及声明对象标识代码表" useing="true">
+		<map key="1" mapping="报告" desc="" />
+		<map key="201" mapping="身份信息" desc="" />
+		<map key="202" mapping="婚姻信息" desc="" />
+		<map key="203" mapping="居住信息" desc="" />
+		<map key="204" mapping="职业信息" desc="" />
+	</mapping>
+	<mapping id="gender" desc="性别代码表" useing="true">
+		<map key="0" mapping="未知" desc="" />
+		<map key="1" mapping="男" desc="" />
+		<map key="2" mapping="女" desc="" />
+		<map key="9" mapping="未说明" desc="" />
+	</mapping>
+	<mapping id="edu_dip" desc="学历代码表" useing="true">
+		<map key="10" mapping="研究生" desc="" />
+		<map key="20" mapping="本科" desc="" />
+		<map key="30" mapping="大专" desc="" />
+		<map key="40" mapping="中专、职高、技校" desc="" />
+		<map key="60" mapping="高中" desc="" />
+		<map key="90" mapping="其他" desc="" />
+		<map key="91" mapping="初中及以下" desc="" />
+		<map key="99" mapping="未知" desc="" />
+	</mapping>
+	<mapping id="degree" desc="学位代码表" useing="true">
+		<map key="0" mapping="其他" desc="" />
+		<map key="1" mapping="名誉博士" desc="" />
+		<map key="2" mapping="博士" desc="" />
+		<map key="3" mapping="硕士" desc="" />
+		<map key="4" mapping="学士" desc="" />
+		<map key="5" mapping="无" desc="" />
+		<map key="9" mapping="未知" desc="" />
+	</mapping>
+	<mapping id="take_occ_situ" desc="就业状况代码表" useing="true">
+		<map key="11" mapping="国家公务员" desc="" />
+		<map key="13" mapping="专业技术人员" desc="" />
+		<map key="17" mapping="职员" desc="" />
+		<map key="21" mapping="企业管理人员" desc="" />
+		<map key="24" mapping="工人" desc="" />
+		<map key="27" mapping="农民" desc="" />
+		<map key="31" mapping="学生" desc="" />
+		<map key="37" mapping="现役军人" desc="" />
+		<map key="51" mapping="自由职业者" desc="" />
+		<map key="54" mapping="个体经营者" desc="" />
+		<map key="70" mapping="无业人员" desc="" />
+		<map key="80" mapping="退（离）休人员" desc="" />
+		<map key="90" mapping="其他" desc="" />
+		<map key="91" mapping="在职" desc="" />
+		<map key="99" mapping="未知" desc="" />
+	</mapping>
+	<mapping id="marrg_situ" desc="婚姻状况代码表" useing="true">
+		<map key="10" mapping="未婚" desc="" />
+		<map key="20" mapping="已婚" desc="" />
+		<map key="30" mapping="丧偶" desc="" />
+		<map key="40" mapping="离婚" desc="" />
+		<map key="91" mapping="单身" desc="" />
+		<map key="99" mapping="未知" desc="" />
+	</mapping>
+	<mapping id="indus" desc="行业代码表" useing="true">
+		<map key="A" mapping="农、林、牧、渔业" desc="" />
+		<map key="B" mapping="采矿业" desc="" />
+		<map key="C" mapping="制造业" desc="" />
+		<map key="D" mapping="电力、热力、燃气及水生产和供应业" desc="" />
+		<map key="E" mapping="建筑业" desc="" />
+		<map key="F" mapping="批发和零售业" desc="" />
+		<map key="G" mapping="交通运输、仓储和邮储业" desc="" />
+		<map key="H" mapping="住宿和餐饮业" desc="" />
+		<map key="I" mapping="信息传输、软件和信息技术服务业" desc="" />
+		<map key="J" mapping="金融业" desc="" />
+		<map key="K" mapping="房地产业" desc="" />
+		<map key="L" mapping="租赁和商务服务业" desc="" />
+		<map key="M" mapping="科学研究和技术服务业" desc="" />
+		<map key="N" mapping="水利、环境和公共设施管理业" desc="" />
+		<map key="O" mapping="居民服务、修理和其他服务业" desc="" />
+		<map key="P" mapping="教育" desc="" />
+		<map key="Q" mapping="卫生和社会工作" desc="" />
+		<map key="R" mapping="文化、体育和娱乐业" desc="" />
+		<map key="S" mapping="公共管理、社会保障和社会组织" desc="" />
+		<map key="T" mapping="国际组织" desc="" />
+		<map key="9" mapping="未知" desc="" />
+	</mapping>
+	
+	<mapping id="currency_cd" desc="币种" useing="true">
+		<map key="ADP" mapping="安道尔比塞塔" desc="" />
+		<map key="AED" mapping="UAE迪拉姆" desc="" />
+		<map key="AFA" mapping="阿富汗尼" desc="" />
+		<map key="ALL" mapping="列克" desc="" />
+		<map key="AMD" mapping="亚美尼亚达姆" desc="" />
+		<map key="ANG" mapping="荷属安的列斯盾" desc="" />
+		<map key="AOA" mapping="宽扎" desc="" />
+		<map key="ARS" mapping="阿根廷比索" desc="" />
+		<map key="ATS" mapping="先令" desc="" />
+		<map key="AUD" mapping="澳大利亚元" desc="" />
+		<map key="AWG" mapping="阿鲁巴盾" desc="" />
+		<map key="AZM" mapping="阿塞拜疆马纳特" desc="" />
+		<map key="BAM" mapping="可自由兑换标记" desc="" />
+		<map key="BBD" mapping="巴巴多斯元" desc="" />
+		<map key="BDT" mapping="塔卡" desc="" />
+		<map key="BEF" mapping="比利时法郎" desc="" />
+		<map key="BGL" mapping="列弗" desc="" />
+		<map key="BGN" mapping="保加利亚列弗" desc="" />
+		<map key="BHD" mapping="巴林第纳尔" desc="" />
+		<map key="BIF" mapping="布隆迪法郎" desc="" />
+		<map key="BMD" mapping="百慕大元" desc="" />
+		<map key="BND" mapping="文莱元" desc="" />
+		<map key="BOB" mapping="玻利瓦尔" desc="" />
+		<map key="BOV" mapping="Mvdol" desc="" />
+		<map key="BRL" mapping="巴西瑞尔" desc="" />
+		<map key="BSD" mapping="巴哈马元" desc="" />
+		<map key="BTN" mapping="努尔特鲁姆" desc="" />
+		<map key="MMK" mapping="缅元" desc="" />
+		<map key="BWP" mapping="普拉" desc="" />
+		<map key="BYR" mapping="白俄罗斯卢布" desc="" />
+		<map key="BZD" mapping="伯利兹元" desc="" />
+		<map key="CAD" mapping="加元" desc="" />
+		<map key="CDF" mapping="刚果法郎" desc="" />
+		<map key="CFC" mapping="记帐法国法郎（旧）" desc="" />
+		<map key="CHF" mapping="瑞士法郎" desc="" />
+		<map key="CLF" mapping="发展单位" desc="" />
+		<map key="CLP" mapping="智利比索" desc="" />
+		<map key="CNY" mapping="人民币元" desc="" />
+		<map key="COP" mapping="哥伦比亚比索" desc="" />
+		<map key="CPS" mapping="记帐英镑（旧）" desc="" />
+		<map key="CRC" mapping="哥斯达黎加科朗" desc="" />
+		<map key="CUP" mapping="古巴比索" desc="" />
+		<map key="CSF" mapping="记帐瑞士法郎（旧）" desc="" />
+		<map key="CZK" mapping="捷克克朗" desc="" />
+		<map key="CUR" mapping="清算卢布（旧）" desc="" />
+		<map key="CUS" mapping="记帐美元（旧）" desc="" />
+		<map key="CVE" mapping="佛得角埃斯库多" desc="" />
+		<map key="CYP" mapping="塞浦路斯镑" desc="" />
+		<map key="DEM" mapping="德国马克" desc="" />
+		<map key="DJF" mapping="即菩提法郎" desc="" />
+		<map key="DKK" mapping="丹麦克朗" desc="" />
+		<map key="DOP" mapping="多米尼加比索" desc="" />
+		<map key="DZD" mapping="阿尔及利亚第纳尔" desc="" />
+		<map key="EEK" mapping="克罗姆" desc="" />
+		<map key="EGP" mapping="埃及镑" desc="" />
+		<map key="ERN" mapping="纳克法" desc="" />
+		<map key="ESP" mapping="西班牙比塞塔" desc="" />
+		<map key="ETB" mapping="埃塞俄比亚比尔" desc="" />
+		<map key="EUR" mapping="欧元" desc="" />
+		<map key="FIM" mapping="马克" desc="" />
+		<map key="FJD" mapping="斐济元" desc="" />
+		<map key="FKP" mapping="福克兰群岛镑" desc="" />
+		<map key="FRF" mapping="法国法郎" desc="" />
+		<map key="GBP" mapping="英镑" desc="" />
+		<map key="GEL" mapping="拉里" desc="" />
+		<map key="GHC" mapping="赛地" desc="" />
+		<map key="GIP" mapping="直布罗陀镑" desc="" />
+		<map key="GMD" mapping="达拉西" desc="" />
+		<map key="GNF" mapping="几内亚法郎" desc="" />
+		<map key="GRD" mapping="德拉克马" desc="" />
+		<map key="GTQ" mapping="格查尔" desc="" />
+		<map key="GWP" mapping="几内亚比绍比索" desc="" />
+		<map key="GWD" mapping="圭亚那元" desc="" />
+		<map key="HKD" mapping="香港元" desc="" />
+		<map key="HNL" mapping="伦皮拉" desc="" />
+		<map key="HRK" mapping="克罗地亚库纳" desc="" />
+		<map key="HTG" mapping="古德" desc="" />
+		<map key="HUF" mapping="福林" desc="" />
+		<map key="IDR" mapping="卢比" desc="" />
+		<map key="IEP" mapping="爱尔兰镑" desc="" />
+		<map key="ILS" mapping="新谢克尔" desc="" />
+		<map key="INR" mapping="印度卢比" desc="" />
+		<map key="IQD" mapping="伊拉克第纳尔" desc="" />
+		<map key="IRR" mapping="伊朗里亚尔" desc="" />
+		<map key="ISK" mapping="冰岛克朗" desc="" />
+		<map key="ITL" mapping="意大利里拉" desc="" />
+		<map key="JMD" mapping="牙买加元" desc="" />
+		<map key="JOD" mapping="约旦第纳尔" desc="" />
+		<map key="JPY" mapping="日元" desc="" />
+		<map key="KES" mapping="肯尼亚先令" desc="" />
+		<map key="KGS" mapping="索姆" desc="" />
+		<map key="KHR" mapping="瑞尔" desc="" />
+		<map key="KMF" mapping="科摩罗法郎" desc="" />
+		<map key="KPW" mapping="北朝鲜圆" desc="" />
+		<map key="KRW" mapping="圆" desc="" />
+		<map key="KWD" mapping="科威特第纳尔" desc="" />
+		<map key="KYD" mapping="开曼群岛元" desc="" />
+		<map key="KZT" mapping="坚戈" desc="" />
+		<map key="LAK" mapping="基普" desc="" />
+		<map key="LBP" mapping="黎巴嫩镑" desc="" />
+		<map key="LKR" mapping="斯里兰卡卢比" desc="" />
+		<map key="LRD" mapping="利比里亚元" desc="" />
+		<map key="LSL" mapping="罗提" desc="" />
+		<map key="LTL" mapping="立陶宛" desc="" />
+		<map key="LUF" mapping="卢森堡法郎" desc="" />
+		<map key="LVL" mapping="拉脱维亚拉特" desc="" />
+		<map key="LYD" mapping="利比亚第纳尔" desc="" />
+		<map key="MAD" mapping="摩洛哥迪拉姆" desc="" />
+		<map key="MDL" mapping="摩尔瓦多列伊" desc="" />
+		<map key="MGF" mapping="马尔加什法郎" desc="" />
+		<map key="MKD" mapping="第纳尔" desc="" />
+		<map key="MLF" mapping="马里法郎（旧）" desc="" />
+		<map key="MNT" mapping="图格里克" desc="" />
+		<map key="MOP" mapping="澳门元" desc="" />
+		<map key="MRO" mapping="乌吉亚" desc="" />
+		<map key="MTL" mapping="马尔他里拉" desc="" />
+		<map key="MUR" mapping="毛里求斯卢比" desc="" />
+		<map key="MVR" mapping="卢菲亚" desc="" />
+		<map key="MWK" mapping="克瓦查" desc="" />
+		<map key="MXP" mapping="墨西哥比索（旧）" desc="" />
+		<map key="MXN" mapping="墨西哥比索" desc="" />
+		<map key="MXV" mapping="墨西哥发展单位" desc="" />
+		<map key="MYR" mapping="马来西亚林吉特" desc="" />
+		<map key="MZM" mapping="麦梯卡尔" desc="" />
+		<map key="NAD" mapping="纳米比亚元" desc="" />
+		<map key="NGN" mapping="奈拉" desc="" />
+		<map key="NIO" mapping="金科多巴" desc="" />
+		<map key="NLG" mapping="荷兰盾" desc="" />
+		<map key="NOK" mapping="挪威克朗" desc="" />
+		<map key="NPR" mapping="尼泊尔卢比" desc="" />
+		<map key="NZD" mapping="新西兰元" desc="" />
+		<map key="OMR" mapping="阿曼里亚尔" desc="" />
+		<map key="PAB" mapping="巴波亚" desc="" />
+		<map key="PEN" mapping="索尔" desc="" />
+		<map key="PGK" mapping="基那" desc="" />
+		<map key="PHP" mapping="菲律宾比索" desc="" />
+		<map key="PKR" mapping="巴基斯坦卢比" desc="" />
+		<map key="PLZ" mapping="波兰兹罗提（旧）" desc="" />
+		<map key="PLN" mapping="兹罗提" desc="" />
+		<map key="PTE" mapping="葡萄牙埃斯库多" desc="" />
+		<map key="PYG" mapping="瓜拉尼" desc="" />
+		<map key="QAR" mapping="卡塔尔里亚尔" desc="" />
+		<map key="ROL" mapping="列伊" desc="" />
+		<map key="RUB" mapping="俄罗斯卢布" desc="" />
+		<map key="RUR" mapping="俄罗斯卢布" desc="" />
+		<map key="RWF" mapping="卢旺达法郎" desc="" />
+		<map key="SAR" mapping="沙特里亚尔" desc="" />
+		<map key="SBD" mapping="所罗门群岛元" desc="" />
+		<map key="SCR" mapping="塞舌尔卢比" desc="" />
+		<map key="SDD" mapping="苏丹第纳尔" desc="" />
+		<map key="SDP" mapping="苏丹镑（旧）" desc="" />
+		<map key="SEK" mapping="瑞典克朗" desc="" />
+		<map key="SGD" mapping="新加坡元" desc="" />
+		<map key="SHP" mapping="圣赫勒拿镑" desc="" />
+		<map key="SIT" mapping="托拉尔" desc="" />
+		<map key="SKK" mapping="斯洛伐克克朗" desc="" />
+		<map key="SLL" mapping="利昂" desc="" />
+		<map key="SOS" mapping="索马里先令" desc="" />
+		<map key="SRG" mapping="苏里南盾" desc="" />
+		<map key="STD" mapping="多布拉" desc="" />
+		<map key="SVC" mapping="萨尔瓦多科朗" desc="" />
+		<map key="SYP" mapping="叙利亚镑" desc="" />
+		<map key="SZL" mapping="里兰吉尼" desc="" />
+		<map key="THB" mapping="铢" desc="" />
+		<map key="TJS" mapping="索莫尼" desc="" />
+		<map key="TMM" mapping="马纳特" desc="" />
+		<map key="TND" mapping="突尼斯第纳尔" desc="" />
+		<map key="TOP" mapping="邦加" desc="" />
+		<map key="TPE" mapping="东帝汶埃斯库多" desc="" />
+		<map key="TRL" mapping="土耳其里拉" desc="" />
+		<map key="TTD" mapping="特立尼达和多巴哥元" desc="" />
+		<map key="TWD" mapping="新台湾元" desc="" />
+		<map key="TZS" mapping="坦桑尼亚先令" desc="" />
+		<map key="UAH" mapping="格里夫纳" desc="" />
+		<map key="UDM" mapping="蒙古美元（旧）" desc="" />
+		<map key="UGX" mapping="乌干达先令" desc="" />
+		<map key="USD" mapping="美元" desc="" />
+		<map key="UYU" mapping="乌拉圭比索" desc="" />
+		<map key="UZS" mapping="乌兹别克斯坦苏姆" desc="" />
+		<map key="VND" mapping="盾" desc="" />
+		<map key="VUV" mapping="瓦图" desc="" />
+		<map key="WST" mapping="塔拉" desc="" />
+		<map key="XAF" mapping="中非法郎" desc="" />
+		<map key="XAG" mapping="银" desc="" />
+		<map key="XAU" mapping="黄金" desc="" />
+		<map key="XBA" mapping="欧洲货币合成单位" desc="" />
+		<map key="XBB" mapping="欧洲货币单位(E.M.U.-6)" desc="" />
+		<map key="XBC" mapping="欧洲账户9单位" desc="" />
+		<map key="XBD" mapping="欧洲账户17单位" desc="" />
+		<map key="XCD" mapping="东加勒比元" desc="" />
+		<map key="XDR" mapping="特别提款权" desc="" />
+		<map key="XFO" mapping="黄金法郎" desc="" />
+		<map key="XFU" mapping="UIC法郎" desc="" />
+		<map key="XOF" mapping="CFA法郎BCEAO" desc="" />
+		<map key="XPF" mapping="CFP法郎" desc="" />
+		<map key="YER" mapping="也门里亚尔" desc="" />
+		<map key="YUM" mapping="南斯拉夫第纳尔" desc="" />
+		<map key="ZAR" mapping="兰特" desc="" />
+		<map key="ZMK" mapping="克瓦查" desc="" />
+		<map key="ZWD" mapping="津巴布韦元" desc="" />	
+	</mapping>
+
+	<mapping id="nation" desc="国家地区" useing="true">
+		<map key="AFG" mapping="阿富汗" desc="" />
+		<map key="ALB" mapping="阿尔巴尼亚共和国" desc="" />
+		<map key="DZA" mapping="阿尔及利亚民主人民共和国" desc="" />
+		<map key="ASM" mapping="美属萨摩亚" desc="" />
+		<map key="AND" mapping="安道尔公国" desc="" />
+		<map key="AGO" mapping="安哥拉共和国" desc="" />
+		<map key="AIA" mapping="安圭拉" desc="" />
+		<map key="ATA" mapping="南极洲" desc="" />
+		<map key="ATG" mapping="安提瓜和巴布达" desc="" />
+		<map key="ARG" mapping="阿根廷共和国" desc="" />
+		<map key="ARM" mapping="亚美尼亚共和国" desc="" />
+		<map key="ABW" mapping="阿鲁巴" desc="" />
+		<map key="AUS" mapping="澳大利亚联邦" desc="" />
+		<map key="AUT" mapping="奥地利共和国" desc="" />
+		<map key="AZE" mapping="阿塞拜疆共和国" desc="" />
+		<map key="BHS" mapping="巴哈马联邦" desc="" />
+		<map key="BHR" mapping="巴林国" desc="" />
+		<map key="BGD" mapping="孟加拉人民共和国" desc="" />
+		<map key="BRB" mapping="巴巴多斯" desc="" />
+		<map key="BLR" mapping="白俄罗斯共和国" desc="" />
+		<map key="BEL" mapping="比利时王国" desc="" />
+		<map key="BLZ" mapping="伯利兹" desc="" />
+		<map key="BEN" mapping="贝宁共和国" desc="" />
+		<map key="BMU" mapping="百慕大" desc="" />
+		<map key="BTN" mapping="不丹王国" desc="" />
+		<map key="BOL" mapping="玻利维亚共和国" desc="" />
+		<map key="BIH" mapping="波斯尼亚和黑塞哥维那" desc="" />
+		<map key="BWA" mapping="博茨瓦纳共和国" desc="" />
+		<map key="BVT" mapping="布维岛" desc="" />
+		<map key="BRA" mapping="巴西联邦共和国" desc="" />
+		<map key="IOT" mapping="英属印度洋领地" desc="" />
+		<map key="BRN" mapping="文莱达鲁萨兰国" desc="" />
+		<map key="BGR" mapping="保加利亚共和国" desc="" />
+		<map key="BFA" mapping="布基纳法索" desc="" />
+		<map key="BDI" mapping="布隆迪共和国" desc="" />
+		<map key="KHM" mapping="柬埔寨王国" desc="" />
+		<map key="CMR" mapping="喀麦隆共和国" desc="" />
+		<map key="CAN" mapping="加拿大" desc="" />
+		<map key="CPV" mapping="佛得角共和国" desc="" />
+		<map key="CYM" mapping="开曼群岛" desc="" />
+		<map key="CAF" mapping="中非共和国" desc="" />
+		<map key="TCD" mapping="乍得共和国" desc="" />
+		<map key="CHL" mapping="智利共和国" desc="" />
+		<map key="CHN" mapping="中华人民共和国" desc="" />
+		<map key="HKG" mapping="中国香港特别行政区" desc="" />
+		<map key="MAC" mapping="中国澳门特别行政区" desc="" />
+		<map key="TWN" mapping="中国台湾" desc="" />
+		<map key="CXR" mapping="圣诞岛" desc="" />
+		<map key="CCK" mapping="科科斯(基林)群岛" desc="" />
+		<map key="COL" mapping="哥伦比亚共和国" desc="" />
+		<map key="COM" mapping="科摩罗伊斯兰联邦共和国" desc="" />
+		<map key="COG" mapping="刚果共和国" desc="" />
+		<map key="COD" mapping="刚果民主共和国" desc="" />
+		<map key="COK" mapping="库克群岛" desc="" />
+		<map key="CRI" mapping="哥斯达黎加共和国" desc="" />
+		<map key="CIV" mapping="科特迪瓦共和国" desc="" />
+		<map key="HRV" mapping="克罗地亚共和国" desc="" />
+		<map key="CUB" mapping="古巴共和国" desc="" />
+		<map key="CYP" mapping="塞浦路斯共和国" desc="" />
+		<map key="CZE" mapping="捷克共和国" desc="" />
+		<map key="DNK" mapping="丹麦王国" desc="" />
+		<map key="DJI" mapping="吉布提共和国" desc="" />
+		<map key="DMA" mapping="多米尼克国" desc="" />
+		<map key="DOM" mapping="多米尼加共和国" desc="" />
+		<map key="TMP" mapping="东帝汶" desc="" />
+		<map key="ECU" mapping="厄瓜多尔共和国" desc="" />
+		<map key="EGY" mapping="阿拉伯埃及共和国" desc="" />
+		<map key="SLV" mapping="萨尔瓦多共和国" desc="" />
+		<map key="GNQ" mapping="赤道几内亚共和国" desc="" />
+		<map key="ERI" mapping="厄立特里亚国" desc="" />
+		<map key="EST" mapping="爱沙尼亚共和国" desc="" />
+		<map key="ETH" mapping="埃塞俄比亚联邦民主共和国" desc="" />
+		<map key="FLK" mapping="福克兰群岛（马尔维纳斯）" desc="" />
+		<map key="FRO" mapping="法罗群岛" desc="" />
+		<map key="FJI" mapping="斐济群岛共和国" desc="" />
+		<map key="FIN" mapping="芬兰共和国" desc="" />
+		<map key="FRA" mapping="法兰西共和国" desc="" />
+		<map key="GUF" mapping="法属圭亚那" desc="" />
+		<map key="PYF" mapping="法属波利尼西亚" desc="" />
+		<map key="ATF" mapping="法属南部领土" desc="" />
+		<map key="GAB" mapping="加蓬共和国" desc="" />
+		<map key="GMB" mapping="冈比亚共和国" desc="" />
+		<map key="GEO" mapping="格鲁吉亚" desc="" />
+		<map key="DEU" mapping="德意志联邦共和国" desc="" />
+		<map key="GHA" mapping="加纳共和国" desc="" />
+		<map key="GIB" mapping="直布罗陀" desc="" />
+		<map key="GRC" mapping="希腊共和国" desc="" />
+		<map key="GRL" mapping="格陵兰" desc="" />
+		<map key="GRD" mapping="格林纳达" desc="" />
+		<map key="GLP" mapping="瓜德罗普" desc="" />
+		<map key="GUM" mapping="关岛" desc="" />
+		<map key="GTM" mapping="危地马拉共和国" desc="" />
+		<map key="GIN" mapping="几内亚共和国" desc="" />
+		<map key="GNB" mapping="几内亚比绍共和国" desc="" />
+		<map key="GUY" mapping="圭亚那合作共和国" desc="" />
+		<map key="HTI" mapping="海地共和国" desc="" />
+		<map key="HMD" mapping="赫德岛和麦克唐纳岛" desc="" />
+		<map key="HND" mapping="洪都拉斯共和国" desc="" />
+		<map key="HUN" mapping="匈牙利共和国" desc="" />
+		<map key="ISL" mapping="冰岛共和国" desc="" />
+		<map key="IND" mapping="印度共和国" desc="" />
+		<map key="IDN" mapping="印度尼西亚共和国" desc="" />
+		<map key="IRN" mapping="伊朗伊斯兰共和国" desc="" />
+		<map key="IRQ" mapping="伊拉克共和国" desc="" />
+		<map key="IRL" mapping="爱尔兰" desc="" />
+		<map key="ISR" mapping="以色列国" desc="" />
+		<map key="ITA" mapping="意大利共和国" desc="" />
+		<map key="JAM" mapping="牙买加" desc="" />
+		<map key="JPN" mapping="日本国" desc="" />
+		<map key="JOR" mapping="约旦哈希姆王国" desc="" />
+		<map key="KAZ" mapping="哈萨克斯坦共和国" desc="" />
+		<map key="KEN" mapping="肯尼亚共和国" desc="" />
+		<map key="KIR" mapping="基里巴斯共和国" desc="" />
+		<map key="PRK" mapping="朝鲜民主主义人民共和国" desc="" />
+		<map key="KOR" mapping="大韩民国" desc="" />
+		<map key="KWT" mapping="科威特国" desc="" />
+		<map key="KGZ" mapping="吉尔吉斯共和国" desc="" />
+		<map key="LAO" mapping="老挝人民民主共和国" desc="" />
+		<map key="LVA" mapping="拉脱维亚共和国" desc="" />
+		<map key="LBN" mapping="黎巴嫩共和国" desc="" />
+		<map key="LSO" mapping="莱索托王国" desc="" />
+		<map key="LBR" mapping="利比里亚共和国" desc="" />
+		<map key="LBY" mapping="大阿拉伯利比亚人民社会主义民众国" desc="" />
+		<map key="LIE" mapping="列支敦士登公国" desc="" />
+		<map key="LTU" mapping="立陶宛共和国" desc="" />
+		<map key="LUX" mapping="卢森堡大公国" desc="" />
+		<map key="MKD" mapping="前南斯拉夫马其顿共和国" desc="" />
+		<map key="MDG" mapping="马达加斯加共和国" desc="" />
+		<map key="MWI" mapping="马拉维共和国" desc="" />
+		<map key="MYS" mapping="马来西亚" desc="" />
+		<map key="MDV" mapping="马尔代夫共和国" desc="" />
+		<map key="MLI" mapping="马里共和国" desc="" />
+		<map key="MLT" mapping="马耳他共和国" desc="" />
+		<map key="MHL" mapping="马绍尔群岛共和国" desc="" />
+		<map key="MTQ" mapping="马提尼克" desc="" />
+		<map key="MRT" mapping="毛里塔尼亚伊斯兰共和国" desc="" />
+		<map key="MUS" mapping="毛里求斯共和国" desc="" />
+		<map key="MYT" mapping="马约特" desc="" />
+		<map key="MEX" mapping="墨西哥合众国" desc="" />
+		<map key="FSM" mapping="密克罗尼西亚联邦" desc="" />
+		<map key="MDA" mapping="摩尔多瓦共和国" desc="" />
+		<map key="MCO" mapping="摩纳哥公国" desc="" />
+		<map key="MNG" mapping="蒙古国" desc="" />
+		<map key="MSR" mapping="蒙特赛拉特" desc="" />
+		<map key="MAR" mapping="摩洛哥王国" desc="" />
+		<map key="MOZ" mapping="莫桑比克共和国" desc="" />
+		<map key="MMR" mapping="缅甸联邦" desc="" />
+		<map key="NAM" mapping="纳米比亚共和国" desc="" />
+		<map key="NRU" mapping="瑙鲁共和国" desc="" />
+		<map key="NPL" mapping="尼泊尔王国" desc="" />
+		<map key="NLD" mapping="荷兰王国" desc="" />
+		<map key="ANT" mapping="荷属安的列斯" desc="" />
+		<map key="NCL" mapping="新喀里多尼亚" desc="" />
+		<map key="NZL" mapping="新西兰" desc="" />
+		<map key="NIC" mapping="尼加拉瓜共和国" desc="" />
+		<map key="NER" mapping="尼日尔共和国" desc="" />
+		<map key="NGA" mapping="尼日利亚联邦共和国" desc="" />
+		<map key="NIU" mapping="纽埃" desc="" />
+		<map key="NFK" mapping="诺福克岛" desc="" />
+		<map key="MNP" mapping="北马里亚纳自由联邦" desc="" />
+		<map key="NOR" mapping="挪威王国" desc="" />
+		<map key="OMN" mapping="阿曼苏丹国" desc="" />
+		<map key="PAK" mapping="巴基斯坦伊斯兰共和国" desc="" />
+		<map key="PLW" mapping="帕劳共和国" desc="" />
+		<map key="PSE" mapping="巴勒斯坦国" desc="" />
+		<map key="PAN" mapping="巴拿马共和国" desc="" />
+		<map key="PNG" mapping="巴布亚新几内亚独立国" desc="" />
+		<map key="PRY" mapping="巴拉圭共和国" desc="" />
+		<map key="PER" mapping="秘鲁共和国" desc="" />
+		<map key="PHL" mapping="菲律宾共和国" desc="" />
+		<map key="PCN" mapping="皮特凯恩" desc="" />
+		<map key="POL" mapping="波兰共和国" desc="" />
+		<map key="PRT" mapping="葡萄牙共和国" desc="" />
+		<map key="PRI" mapping="波多黎各" desc="" />
+		<map key="QAT" mapping="卡塔尔国" desc="" />
+		<map key="REU" mapping="留尼汪" desc="" />
+		<map key="ROM" mapping="罗马尼亚" desc="" />
+		<map key="RUS" mapping="俄罗斯联邦" desc="" />
+		<map key="RWA" mapping="卢旺达共和国" desc="" />
+		<map key="SHN" mapping="圣赫勒拿" desc="" />
+		<map key="KNA" mapping="圣基茨和尼维斯联邦" desc="" />
+		<map key="LCA" mapping="圣卢西亚" desc="" />
+		<map key="SPM" mapping="圣皮埃尔和密克隆" desc="" />
+		<map key="VCT" mapping="圣文森特和格林纳丁斯" desc="" />
+		<map key="WSM" mapping="萨摩亚独立国" desc="" />
+		<map key="SMR" mapping="圣马力诺共和国" desc="" />
+		<map key="STP" mapping="圣多美和普林西比民主共和国" desc="" />
+		<map key="SAU" mapping="沙特阿拉伯王国" desc="" />
+		<map key="SEN" mapping="塞内加尔共和国" desc="" />
+		<map key="SYC" mapping="塞舌尔共和国" desc="" />
+		<map key="SLE" mapping="塞拉里昂共和国" desc="" />
+		<map key="SGP" mapping="新加坡共和国" desc="" />
+		<map key="SVK" mapping="斯洛伐克共和国" desc="" />
+		<map key="SVN" mapping="斯洛文尼亚共和国" desc="" />
+		<map key="SLB" mapping="所罗门群岛" desc="" />
+		<map key="SOM" mapping="索马里共和国" desc="" />
+		<map key="ZAF" mapping="南非共和国" desc="" />
+		<map key="SGS" mapping="南乔治亚岛和南桑德韦奇岛" desc="" />
+		<map key="ESP" mapping="西班牙王国" desc="" />
+		<map key="LKA" mapping="斯里兰卡民主社会主义共和国" desc="" />
+		<map key="SDN" mapping="苏丹共和国" desc="" />
+		<map key="SUR" mapping="苏里南共和国" desc="" />
+		<map key="SJM" mapping="斯瓦尔巴岛和扬马延岛" desc="" />
+		<map key="SWZ" mapping="斯威士兰王国" desc="" />
+		<map key="SWE" mapping="瑞典王国" desc="" />
+		<map key="CHE" mapping="瑞士联邦" desc="" />
+		<map key="SYR" mapping="阿拉伯叙利亚共和国" desc="" />
+		<map key="TJK" mapping="塔吉克斯坦共和国" desc="" />
+		<map key="TZA" mapping="坦桑尼亚联合共和国" desc="" />
+		<map key="THA" mapping="泰王国" desc="" />
+		<map key="TGO" mapping="多哥共和国" desc="" />
+		<map key="TKL" mapping="托克劳" desc="" />
+		<map key="TON" mapping="汤加王国" desc="" />
+		<map key="TTO" mapping="特立尼达和多巴哥共和国" desc="" />
+		<map key="TUN" mapping="突尼斯共和国" desc="" />
+		<map key="TUR" mapping="土耳其共和国" desc="" />
+		<map key="TKM" mapping="土库曼斯坦" desc="" />
+		<map key="TCA" mapping="特克斯和凯科斯群岛" desc="" />
+		<map key="TUV" mapping="图瓦卢" desc="" />
+		<map key="UGA" mapping="乌干达共和国" desc="" />
+		<map key="UKR" mapping="乌克兰" desc="" />
+		<map key="ARE" mapping="阿拉伯联合酋长国" desc="" />
+		<map key="GBR" mapping="大不列颠及北爱尔兰联合王国" desc="" />
+		<map key="USA" mapping="美利坚合众国" desc="" />
+		<map key="UMI" mapping="美国本土外小岛屿" desc="" />
+		<map key="URY" mapping="乌拉圭东岸共和国" desc="" />
+		<map key="UZB" mapping="乌兹别克斯坦共和国" desc="" />
+		<map key="VUT" mapping="瓦努阿图共和国" desc="" />
+		<map key="VAT" mapping="梵蒂冈城国" desc="" />
+		<map key="VEN" mapping="委内瑞拉共和国" desc="" />
+		<map key="VNM" mapping="越南社会主义共和国" desc="" />
+		<map key="VGB" mapping="英属维尔京群岛" desc="" />
+		<map key="VIR" mapping="美属维尔京群岛" desc="" />
+		<map key="WLF" mapping="瓦利斯和富图纳" desc="" />
+		<map key="ESH" mapping="西撒哈拉" desc="" />
+		<map key="YEM" mapping="也门共和国" desc="" />
+		<map key="YUG" mapping="南斯拉夫联盟共和国" desc="" />
+		<map key="ZMB" mapping="赞比亚共和国" desc="" />
+		<map key="ZWE" mapping="津巴布韦共和国" desc="" />
+		<map key="OTH" mapping="其他地区" desc="" />
+		<map key="991" mapping="中国（含港澳台）" desc="" />
+		<map key="992" mapping="外国（不含港澳台）" desc="" />
+		<map key="999" mapping="未知" desc="" />
+	</mapping>
+</dic>
